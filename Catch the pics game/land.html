@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="land.css">
+
+  </head>
+<body>
+
+<div class="headering">
+<h1>Nature</h1>
+</div>
+
+<div id="background" class="background">
+      <div id="introText" class="intro-text">Explore the Nature in a Thrilling Game!</div>
+  <button id="playGameButton" onclick="startGame()">Play Game</button>
+  <button id="exploreAppButtons" onclick="exploreApp()">Explore the App</button>
+</div>
+
+<!-- Pop-up Dialog -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+      <p>Welcome to Catch the picture Game!</p>
+    <p> Click on the items to explore more about Nature; each item you click on earns you one point. Take care: the items will zoom in when you click on them. Hurry up to click on more than half of the pictures before time runs out.</p> 
+            <button onclick="closePopup()">OK</button>
+  </div>
+</div>
+
+<!-- Countdown Timer -->
+<div id="countdown" class="countdown">Time: <span id="timer">10</span> Score: <span id="score">0</span></div>
+
+<audio id="startAudio" src="Audio/start.ogg"></audio>
+<audio id="pointsAudio" src="Audio/points.wav"></audio>
+
+
+<div class="alert-container"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+<script src="land.js"></script>
+</body>
+</html>
