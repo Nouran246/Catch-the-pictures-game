@@ -1,5 +1,5 @@
 # Catch-the-pictures-game
-SoundSpot Game
+Nature
 
 Catch the picture game is a simple browser-based game built with JavaScript and the Matter.js physics engine. The objective of the game is to click on various items within a set time limit to earn points. Players must aim to score at least 6 points before the timer runs out to win the game.
 Features:
